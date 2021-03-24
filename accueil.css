@@ -12,7 +12,7 @@ main {
 .main-content {
   align-items: center;
   padding: 0 10px;
-  /* width: 75vw; */
+  flex-grow: 1;
 }
 
 aside {
@@ -22,6 +22,10 @@ aside {
 .other {
   width: 100%;
   justify-content: space-around;
+}
+
+.other img {
+  width: 300px;
 }
 
 
@@ -53,6 +57,11 @@ aside {
 .film-carousel-item {
   justify-content: center;
   align-items: center;
+}
+
+#myCarousel {
+  max-width: max-content;
+  align-self: center;
 }
 
 #nowayitem {
