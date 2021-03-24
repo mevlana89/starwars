@@ -50,7 +50,6 @@ acteurs {
     margin-top: 5px;
     margin-left: 2%;
     margin-right: 2%;
-
 }
 acteurs:hover {
 	opacity : 0.8; 
@@ -61,16 +60,17 @@ acteurs:hover {
 }
 
 
+
 /********* Superposition simple de texte sur une image *******/
 
 /* Conteneur principal */
 .overlay-image {
-	position: relative;
+ position: relative;
+
 }
 
 /* Image originale */
 .overlay-image .image {
- display: flex;
 }
 
 /* Texte original */
