@@ -1,7 +1,12 @@
 * {
 	background-color:black;
 	color: white;
-	//* margin : 10px; **/
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.width-95-percent
+{
+	width : 95%;
 }
 
 .carousel_film 
@@ -14,9 +19,13 @@
 {
 	display: flex;
 	flex-direction: column;
-	width : 95%;
 	border: 1px solid;
 	margin: 0 auto;
+	margin-top: 10px;
+}
+.description_film p
+{
+	margin: 1%;
 }
 
 .acteurs_film {
@@ -24,7 +33,6 @@
 	flex-wrap : wrap;
 	justify-content: space-around;
 	text-align: center;
-	width : 95%;	
 	border: 1px solid;
 	margin: 0 auto;
 }
@@ -33,20 +41,22 @@ acteurs h3 {
     margin-top: 0px;
 }
 acteurs a {
-    margin-bottom: 0px;
-    margin-top: 0px;
-	text-decoration:none; 
+	text-decoration:none;
 }
 
 acteurs {
+	border-bottom: 1px solid;
     margin-bottom: 5px;
     margin-top: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
 
 }
 acteurs:hover {
 	opacity : 0.8; 
 }
 
-.style_etoile {
-	color: yellow;
+.style_star-wars {
+	color: gold;
 }
+
