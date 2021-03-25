@@ -1,0 +1,86 @@
+.pageActeursFlex{
+    display: flex;
+    flex-direction: row;    
+    background-color: rgb(8, 8, 8);
+    color: #feda4a;
+    font-family:'Pathway Gothic One', sans-serif; 
+    margin: 0px;    
+    padding: 0px;
+}
+
+.divActeursFlex{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.articleFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.articleActeursPres{
+    border:1px;
+    border-style: solid;
+    padding:0.2em;
+}
+
+.divImgActeurs{
+    margin: 2px ;    
+    width: 12em;
+}
+
+.imgActeurs{
+    width: 100%;
+}
+
+.divTablePosPres{
+    margin: 2px ;
+    font-size: 0.8em;
+    width: 15em;
+}
+
+.tablePres{
+    border:1px;
+    border-style: solid;    
+}
+
+.divBioActeurs{
+    width:40em;
+}
+
+.pBioActeurs{
+    margin: 1px 1px 4px 1px ;
+}
+
+.divActeursList{
+    width: 20%;
+    height: auto; 
+    margin: 20px;
+}
+.acteursList{
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;   
+    border:1px;
+    border-style: solid;    
+}
+
+th{
+    vertical-align: top;
+    text-align: left;
+}
+
+a{
+    color: rgb(245, 250, 250);
+}
+
+@media screen and (max-width: 375px){
+    .rspsFlex{
+        display: none; 
+    }
+
+    
+}
