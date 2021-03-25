@@ -48,6 +48,12 @@ acteurs h3 {
 acteurs a {
 	text-decoration:none;
 }
+acteurs a img {
+	border-radius: 4px;
+	width: 150px;
+	height: 150px;
+	border: 2px solid gold;
+}
 
 acteurs {
 	border-bottom: 1px solid;
@@ -116,3 +122,4 @@ acteurs:hover {
 .overlay-image .hover {
  background-color: rgba(0,0,0,0.5);
 }
+
