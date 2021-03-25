@@ -5,6 +5,7 @@
     color: #feda4a;
     font-family:'Pathway Gothic One', sans-serif; 
     margin: 0px;    
+    border: 0px;
     padding: 0px;
 }
 
@@ -58,7 +59,7 @@
 .divActeursList{
     width: 20%;
     height: auto; 
-    margin: 20px;
+    margin: 69px 20px 20px 20px;
 }
 .acteursList{
     list-style-type: none; 
@@ -82,5 +83,11 @@ a{
         display: none; 
     }
 
-    
+    .articleFlex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+        width: 100%;
+    }   
 }
