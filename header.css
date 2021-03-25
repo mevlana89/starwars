@@ -3,6 +3,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    border-bottom: 0px;
 }
 
 header, footer {
@@ -22,6 +23,10 @@ header {
   	background-repeat: repeat-x;
   	flex-flow: column;
   	justify-content: center;
+	text-shadow:0.05em 0.05em 0 black,
+                -0.05em 0.05em 0 black,
+                0.05em -0.05em 0 black,
+                -0.05em -0.05em 0 black
 }
 
 .header_menu_checkbox, .menu-toggle {
@@ -94,6 +99,10 @@ footer {
   	background-repeat: no-repeat;
   	flex-flow: row wrap;
   	justify-content: center;
+	text-shadow:0.05em 0.05em 0 black,
+                -0.05em 0.05em 0 black,
+                0.05em -0.05em 0 black,
+                -0.05em -0.05em 0 black
 }
 
 .footer-paragraphe {
