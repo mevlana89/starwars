@@ -1,7 +1,12 @@
 * {
+/*	background-color:black;
+	color: white;*/
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+body {
 	background-color:black;
 	color: white;
-	font-family: 'Pathway Gothic One', sans-serif;
 }
 
 .width-95-percent
