@@ -15,6 +15,28 @@ main {
   flex-grow: 1;
 }
 
+.acteurs {
+  justify-content: space-evenly;
+}
+
+.acteurs * {
+  width: 200px;
+}
+
+.all-acteurs {
+  background-color:gainsboro;
+  align-items: center;
+}
+
+.all-acteurs a {
+  text-decoration: none;
+}
+
+.all-acteurs p {
+  margin: 0 20px;
+  color: black;
+}
+
 aside {
   padding: 0 10px;
 }
@@ -43,14 +65,17 @@ aside {
 
 .actu {
   width: 300px;
-  height: 30vh;
   margin: 12px 3px;
-  padding: 3px 12px;
+  padding: 12px 12px;
   border-bottom: 1px solid white;
 }
 
 .actu img {
   width: 80%;
+}
+
+.actu:last-child {
+  border: none;
 }
 
 .carousel-inner {
