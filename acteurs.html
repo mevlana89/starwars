@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
+        tototiti
         <meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Starwar</title>
+        <title>Fan de star Wars!</title>
+        <link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="acteurs.css">
     </head>
     <body>
+    	<header class="page-header">
+    		<h1><a href="index.html">Fan de Star Wars</a></h1>
+    		<input type="checkbox" class="header_menu_checkbox" id="header_chkbox" />
+    		<label for="header_chkbox" class="menu-toggle">≡</label>
+            <ul class="header_menu"> 
+                <li class="li_header"><a href="episode5.html">Filmographie</a></li>
+                <li id="header_select" class="li_header" ><a href="acteurs.html">Acteurs</a></li>
+                <li class="li_header"><a href="">Rencontres</a></li>
+                <li class="li_header"><a href="">Goodies</a></li>
+            </ul>
+
+		</header>
+
         <div class="pageActeursFlex">
             <div class="divActeursFlex">
                 <h1>Harrison Ford - Han Solo</h1>                
@@ -112,6 +130,26 @@
                 </ul>
             </div>
         </div>
+        
+        <footer>
+        	<div class="footer-paragraphe">
+	        	<h4>Ils en parlent aussi :</h4>
+	        	<ul>
+		            <li><a href="https://fr.wikipedia.org/wiki/Star_Wars">Wikipedia</a><br></li>
+		            <li><a href="https://www.allocine.fr/tags/default_gen_tag=Saga+Star+Wars.html">Allociné</a></li>
+		            <li><a href="https://www.lucasfilm.com/">Lucasfilm</a></li>
+	        	</ul>
+        	</div>
+        	<div class="footer-paragraphe">
+        		<h4>A propos de nous :</h4>
+        		<ul>
+        			<li>Site réalisé dans le cadre d'un projet Wild School de la promotion Step Up Natixis 2021</li>
+        			<li>Tout élément Star Wars non présent sur le site est volontaire (il ne le méritait pas :p)</li>
+        	</div>
+        	<div id="disclaim">Disclaimer : Star Wars, les films, logos, personnages, histoires, informations, noms et tout autre élément associé sont la seule et exclusive propriété de Lucasfilm Limited. 
+	            Les administrateurs de ce fansite considèrent que ce site correspond à la définition du "<a href="http://en.wikipedia.org/wiki/Fair_use">fair use</a>" d'après les lois du copyright aux Etats Unis.
+	        </div>
+        </footer>     
     </body>
 </html>
 
