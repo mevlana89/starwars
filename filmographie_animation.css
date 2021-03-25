@@ -5,7 +5,7 @@
   overflow: hidden;
 }*/
 
-/* animation 1*/ 
+/* animation titre Film*/ 
 .intro-titre-film {
   animation: intro 2s ease-out;
   animation-fill-mode: forwards;
@@ -21,49 +21,7 @@
   }
 }
 
-/* animation 2*/
-
-.star-wars {
-  display: flex;
-  height: 300px;
-  width: 80%;
-  color: #feda4a;
-  font-size: 200%;
-  font-weight: 600;
-  letter-spacing: 6px;
-  line-height: 150%;
-  text-align: justify;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.crawl {
-  position: relative;
-  animation: crawl 10s linear;
-  font-size: 80%;
-}
-
-.crawl > .title {
-  font-size: 90%;
-  text-align: center;
-}
-
-.crawl > .title h1 {
-  margin: 0 0 100px;
-  text-transform: uppercase;
-}
-
-@keyframes crawl {
-	0% {
-    top: 350px;
-    transform: perspective(400px) rotateX(25deg)  translateZ(0);
-  }
-	100% { 
-    top: -6000px;
-    transform: perspective(400px) rotateX(30deg) translateZ(-2500px);
-  }
-}
-
+/* HOVER ACTEUR */
 .container_perso {
   position: relative;
   /* width: 50%;*/
