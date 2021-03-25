@@ -63,9 +63,10 @@ acteurs {
     margin-right: 2%;
 
 }
+/*
 acteurs:hover {
 	opacity : 0.8; 
-}
+}*/
 
 .style_star-wars {
 	color: gold;
@@ -123,3 +124,6 @@ acteurs:hover {
  background-color: rgba(0,0,0,0.5);
 }
 
+.test_hover:hover {
+	transform: translateX(100px);
+}
