@@ -1,4 +1,10 @@
 
+.page-header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 header, footer {
 	display: flex;
 	color: #feda4a;
@@ -34,14 +40,14 @@ header ul {
 header li {
 	display: flex;
 	text-align: center;
-	padding: 3%;
+	padding: 1.8%;
 	border: solid 1px;
+	font-size: 16px;
 }
 
 header li:hover {
 	color: black;
 	background-color: #feda4a;
-	padding: 3%;
 	border: solid 1px;
 }
 
@@ -52,6 +58,11 @@ header li:hover {
 
 header a {
 	text-decoration: none;
+	color: #feda4a;
+}
+
+header a:hover {
+	text-decoration: underline;
 	color: #feda4a;
 }
 
@@ -68,6 +79,9 @@ header a {
 
 header h1 {
 	text-align: center;
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 /* -- partie footer -- */
