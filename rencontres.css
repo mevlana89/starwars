@@ -24,13 +24,20 @@ body {
     --accordion-button-icon:gold;
 }
 
-.display-flex
-{
-    display:flex;
-}
-
 .display-flex 
 {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+}
+.img-rencontres
+{
+    width: 150px;
+    height: 150px;
+}
+
+.img-titre
+{
+    width: 80%;
+    text-align:center;
+    /*height: 100%;*/
 }
