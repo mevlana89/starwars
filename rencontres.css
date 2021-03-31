@@ -1,0 +1,36 @@
+body {
+	background-color:black;
+	color: gold;
+}
+
+.accordion-body {
+    background-color: black;
+
+}
+
+
+.accordion-button {
+    background-color: #000000;
+    color: gold;
+    font-size: larger;
+}
+
+.accordion-button:not(.collapsed) {
+    color: gold;
+    background-color: #000000;
+}
+
+.accordion-button:not(.collapsed)::after {
+    --accordion-button-icon:gold;
+}
+
+.display-flex
+{
+    display:flex;
+}
+
+.display-flex 
+{
+	display: flex;
+	justify-content: center;
+}
