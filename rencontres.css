@@ -1,7 +1,13 @@
-body {
+ /*body {
 	background-color:black;
 	color: gold;
 }
+.img-titre
+{
+    width: 80%;
+    text-align:center;
+    /*height: 100%;
+}*/
 
 .accordion-body {
     background-color: black;
@@ -34,13 +40,6 @@ body {
     height: 150px;
 }
 
-.img-titre
-{
-    width: 80%;
-    text-align:center;
-    /*height: 100%;*/
-}
 
-element {
-    $body-bg: $gray-lighter;
-  }
+
+

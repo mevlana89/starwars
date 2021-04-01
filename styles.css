@@ -1,0 +1,16 @@
+* {
+    /*	background-color:black;
+        color: white;*/
+        font-family: 'Pathway Gothic One', sans-serif;
+    }
+
+body {
+    background-color:black;
+    color: gold;
+}
+.img-titre
+{
+    width: 80%;
+    text-align:center;
+    /*height: 100%;*/
+}
