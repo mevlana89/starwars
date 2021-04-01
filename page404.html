@@ -16,12 +16,35 @@
     		<h1><a href="index.html">Fan de Star Wars</a></h1>
     		<input type="checkbox" class="header_menu_checkbox" id="header_chkbox" />
     		<label for="header_chkbox" class="menu-toggle">≡</label>
-            <ul class="header_menu"> 
-                <li class="li_header"><a href="episode5.html">Filmographie</a></li>
-                <li id="header_select" class="li_header" ><a href="acteurs.html">Acteurs</a></li>
-                <li class="li_header"><a href="">Rencontres</a></li>
-                <li class="li_header"><a href="">Goodies</a></li>
-            </ul>
+			<ul class="header_menu">
+				<li class="li_header" href="#" data-toggle="collapse" data-target = "#lstfilms">Filmographie</li>
+				<div id="lstfilms" class="collapse">
+					<div class="box_film"><a href="page404.html"><p>Un nouvel espoir</p></a></div>
+					<div class="box_film"><a href="episode5.html"><p>L'empire contre-attaque</p></a></div>
+					<div class="box_film"><a href="page404.html"><p>Le retour du Jedi</p></a></div>
+				</div>
+				<li class="li_header" ><a href="acteurs.html">Acteurs</a></li>
+				<li class="li_header"><a href="rencontres.html">Rencontres</a></li>
+				<li class="li_header"><a href="goodies.html">Goodies</a></li>
+			</ul>
+			<div id="navbar">
+				<a href=episode5.html>Filmographie</a>
+				<a href="acteurs.html">Acteurs</a>
+				<a href="rencontres.html">Rencontres</a>
+				<a href="goodies.html">Goodies</a>
+			</div>
+
+			<script>
+				window.onscroll = function() {scrollFunction()};
+
+				function scrollFunction() {
+					if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+						document.getElementById("navbar").style.top = "0";
+					} else {
+						document.getElementById("navbar").style.top = "-50px";
+					}
+				}
+			</script>
 
 		</header>
 
