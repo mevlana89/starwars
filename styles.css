@@ -13,4 +13,6 @@ body {
     width: 80%;
     text-align:center;
     /*height: 100%;*/
+    margin: 40px 0;
+    width: 300px;
 }
