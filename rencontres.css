@@ -28,5 +28,20 @@
     height: 150px;
 }
 
+.accordion-item {
+    margin-bottom: -1px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
 
-
+/* spécification pour écran max 961*/
+@media screen and (max-width:650px)
+{ 
+    .accordion-button {
+        font-size: smaller;
+    }
+    .img-rencontres
+    {
+    display:none;
+    }
+}
