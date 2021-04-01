@@ -1,18 +1,18 @@
 * {
-    /*	background-color:black;
-        color: white;*/
         font-family: 'Pathway Gothic One', sans-serif;
-    }
+}
+
+:root{
+    --main-color: gold;
+    --main-bg-color: black;
+  }
 
 body {
-    background-color:black;
-    color: gold;
+    background-color:var(--main-bg-color);
+    color: var(--main-color);
 }
 .img-titre
 {
-    width: 80%;
-    text-align:center;
-    /*height: 100%;*/
     margin: 40px 0;
     width: 300px;
 }
