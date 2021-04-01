@@ -11,6 +11,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="goodies.css">
 </head>
 
@@ -19,47 +20,53 @@
     <h1><a href="index.html">Fan de Star Wars</a></h1>
     <input type="checkbox" class="header_menu_checkbox" id="header_chkbox" />
     <label for="header_chkbox" class="menu-toggle">≡</label>
-  <ul class="header_menu">
-    <li class="li_header" href="#" data-toggle="collapse" data-target = "#lstfilms">Filmographie</li>
-    <div id="lstfilms" class="collapse">
-      <div class="box_film"><a href="page404.html"><p>Un nouvel espoir</p></a></div>
-      <div class="box_film"><a href="episode5.html"><p>L'empire contre-attaque</p></a></div>
-      <div class="box_film"><a href="page404.html"><p>Le retour du Jedi</p></a></div>
+    <ul class="header_menu">
+      <li class="li_header" href="#" data-toggle="collapse" data-target="#lstfilms">Filmographie</li>
+      <div id="lstfilms" class="collapse">
+        <div class="box_film"><a href="page404.html">
+            <p>Un nouvel espoir</p>
+          </a></div>
+        <div class="box_film"><a href="episode5.html">
+            <p>L'empire contre-attaque</p>
+          </a></div>
+        <div class="box_film"><a href="page404.html">
+            <p>Le retour du Jedi</p>
+          </a></div>
+      </div>
+      <li class="li_header"><a href="acteurs.html">Acteurs</a></li>
+      <li class="li_header"><a href="rencontres.html">Rencontres</a></li>
+      <li id="header_select" class="li_header"><a href="goodies.html">Goodies</a></li>
+    </ul>
+    <div id="navbar">
+      <a href=episode5.html>Filmographie</a>
+      <a href="acteurs.html">Acteurs</a>
+      <a href="rencontres.html">Rencontres</a>
+      <a href="goodies.html">Goodies</a>
     </div>
-    <li class="li_header" ><a href="acteurs.html">Acteurs</a></li>
-    <li class="li_header"><a href="rencontres.html">Rencontres</a></li>
-    <li id="header_select" class="li_header"><a href="goodies.html">Goodies</a></li>
-  </ul>
-  <div id="navbar">
-    <a href=episode5.html>Filmographie</a>
-    <a href="acteurs.html">Acteurs</a>
-    <a href="rencontres.html">Rencontres</a>
-    <a href="goodies.html">Goodies</a>
-  </div>
 
-  <script>
-    window.onscroll = function() {scrollFunction()};
+    <script>
+      window.onscroll = function () { scrollFunction() };
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-        document.getElementById("navbar").style.top = "0";
-      } else {
-        document.getElementById("navbar").style.top = "-50px";
+      function scrollFunction() {
+        if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
       }
-    }
-  </script>
+    </script>
 
-</header>
+  </header>
 
-<main class="flex-row-wrap">
+  <main class="flex-row-wrap">
     <div class="main-content">
-      <img id="title" src="https://fontmeme.com/permalink/210331/54fb21eacf172f9a4a6f6032f436a704.png" alt="police-star-wars" border="0">
+      <img id="title" src="https://fontmeme.com/permalink/210331/54fb21eacf172f9a4a6f6032f436a704.png"
+        alt="police-star-wars" border="0">
       <section class="flex-col-wrap">
         <h1 class="section-title">Peluches et jouets</h1>
         <div class="flex-row-wrap space-evenly">
           <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/B%C3%A9b%C3%A9-Yoda-jouets-peluche-enfants/dp/B085RCH6V8/ref=sr_1_9?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-9"
+            <a href="https://www.amazon.fr/B%C3%A9b%C3%A9-Yoda-jouets-peluche-enfants/dp/B085RCH6V8/ref=sr_1_9?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-9"
               target="_blank">
               <img src="images/bebeyoda.png" alt="Illustration peluche Bébé Yoda">
             </a>
@@ -70,8 +77,7 @@
             </a>
           </div>
           <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/Joy-Toy-1500075-Peluche-Capitaine/dp/B01414ZZ9Q/ref=sr_1_14?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-14"
+            <a href="https://www.amazon.fr/Joy-Toy-1500075-Peluche-Capitaine/dp/B01414ZZ9Q/ref=sr_1_14?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-14"
               target="_blank">
               <img src="images/phasma.png" alt="Illustration peluche capitaine Phasma">
             </a>
@@ -82,8 +88,7 @@
             </a>
           </div>
           <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/Joy-Toy-1500077-Peluche-Star/dp/B01414ZZ96/ref=sr_1_15?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-15"
+            <a href="https://www.amazon.fr/Joy-Toy-1500077-Peluche-Star/dp/B01414ZZ96/ref=sr_1_15?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-15"
               target="_blank">
               <img src="images/bb8.png" alt="Illustration peluche BB8">
             </a>
@@ -94,8 +99,7 @@
             </a>
           </div>
           <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A0837599O7TE859IEBKF&url=%2FStar-Wars-Black-%25C3%25A9lectronique-Collection%2Fdp%2FB07V5R1HX9%2Fref%3Dsr_1_3_sspa%3F__mk_fr_FR%3D%25C3%2585M%25C3%2585%25C5%25BD%25C3%2595%25C3%2591%26dchild%3D1%26keywords%3Dpeluche%2Bstar%2Bwars%26qid%3D1617181881%26sr%3D8-3-spons%26psc%3D1&qualifier=1617181881&id=7401342285688740&widgetName=sp_atf"
+            <a href="https://www.amazon.fr/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A0837599O7TE859IEBKF&url=%2FStar-Wars-Black-%25C3%25A9lectronique-Collection%2Fdp%2FB07V5R1HX9%2Fref%3Dsr_1_3_sspa%3F__mk_fr_FR%3D%25C3%2585M%25C3%2585%25C5%25BD%25C3%2595%25C3%2591%26dchild%3D1%26keywords%3Dpeluche%2Bstar%2Bwars%26qid%3D1617181881%26sr%3D8-3-spons%26psc%3D1&qualifier=1617181881&id=7401342285688740&widgetName=sp_atf"
               target="_blank">
               <img src="images/bobafett.png" alt="Illustration casque Boba Fett">
             </a>
@@ -119,56 +123,37 @@
         <h1 class="section-title">Legos</h1>
         <div class="flex-row-wrap space-evenly">
           <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/B%C3%A9b%C3%A9-Yoda-jouets-peluche-enfants/dp/B085RCH6V8/ref=sr_1_9?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-9"
-              target="_blank">
-              <img src="images/bebeyoda.png" alt="Illustration peluche Bébé Yoda">
+            <a href="https://www.lego.com/fr-fr/product/millennium-falcon-75192" target="_blank">
+              <img src="images/lego2.png" alt="Illustration Lego">
             </a>
-            <h4>Peluche Bébé Yoda</h4>
-            <a href="https://www.amazon.fr/B%C3%A9b%C3%A9-Yoda-jouets-peluche-enfants/dp/B085RCH6V8/ref=sr_1_9?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-9"
-              target="_blank">
-              <h5>En vente sur Amazon</h5>
+            <h4>Millenium Falcon</h4>
+            <a href="https://www.lego.com/fr-fr/product/millennium-falcon-75192" target="_blank">
+              <h5>En vente sur lego.com</h5>
             </a>
           </div>
           <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/Joy-Toy-1500075-Peluche-Capitaine/dp/B01414ZZ9Q/ref=sr_1_14?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-14"
-              target="_blank">
-              <img src="images/phasma.png" alt="Illustration peluche capitaine Phasma">
+            <a href="https://www.lego.com/fr-fr/product/at-at-75288" target="_blank">
+              <img src="images/lego3.png" alt="Illustration Lego">
             </a>
-            <h4>Peluche Capitaine Phasma</h4>
-            <a href="https://www.amazon.fr/Joy-Toy-1500075-Peluche-Capitaine/dp/B01414ZZ9Q/ref=sr_1_14?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-14"
-              target="_blank">
-              <h5>En vente sur Amazon</h5>
+            <h4>AT-AT</h4>
+            <a href="https://www.lego.com/fr-fr/product/at-at-75288" target="_blank">
+              <h5>En vente sur lego.com</h5>
             </a>
           </div>
           <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/Joy-Toy-1500077-Peluche-Star/dp/B01414ZZ96/ref=sr_1_15?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-15"
+            <a href="https://www.lego.com/fr-fr/product/default-the-mandalorian-bounty-hunter-transport-au-the-razor-crest-nz-the-razor-crest-75292"
               target="_blank">
-              <img src="images/bb8.png" alt="Illustration peluche BB8">
+              <img src="images/lego4.png" alt="Illustration Lego">
             </a>
-            <h4>Peluche BB8</h4>
-            <a href="https://www.amazon.fr/Joy-Toy-1500077-Peluche-Star/dp/B01414ZZ96/ref=sr_1_15?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-15"
+            <h4>Razer Crest</h4>
+            <a href="https://www.lego.com/fr-fr/product/default-the-mandalorian-bounty-hunter-transport-au-the-razor-crest-nz-the-razor-crest-75292"
               target="_blank">
-              <h5>En vente sur Amazon</h5>
-            </a>
-          </div>
-          <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A0837599O7TE859IEBKF&url=%2FStar-Wars-Black-%25C3%25A9lectronique-Collection%2Fdp%2FB07V5R1HX9%2Fref%3Dsr_1_3_sspa%3F__mk_fr_FR%3D%25C3%2585M%25C3%2585%25C5%25BD%25C3%2595%25C3%2591%26dchild%3D1%26keywords%3Dpeluche%2Bstar%2Bwars%26qid%3D1617181881%26sr%3D8-3-spons%26psc%3D1&qualifier=1617181881&id=7401342285688740&widgetName=sp_atf"
-              target="_blank">
-              <img src="images/bobafett.png" alt="Illustration casque Boba Fett">
-            </a>
-            <h4>Casque Boba Fett</h4>
-            <a href="https://www.amazon.fr/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A0837599O7TE859IEBKF&url=%2FStar-Wars-Black-%25C3%25A9lectronique-Collection%2Fdp%2FB07V5R1HX9%2Fref%3Dsr_1_3_sspa%3F__mk_fr_FR%3D%25C3%2585M%25C3%2585%25C5%25BD%25C3%2595%25C3%2591%26dchild%3D1%26keywords%3Dpeluche%2Bstar%2Bwars%26qid%3D1617181881%26sr%3D8-3-spons%26psc%3D1&qualifier=1617181881&id=7401342285688740&widgetName=sp_atf"
-              target="_blank">
-              <h5>En vente sur Amazon</h5>
+              <h5>En vente sur lego.com</h5>
             </a>
           </div>
           <div class="flex-row-wrap">
             <div class="see-all flex-row-wrap">
-              <a href="https://www.amazon.fr/s?k=legos+star+wars" target="_blank">
+              <a href="https://www.lego.com/fr-fr/themes/star-wars" target="_blank">
                 <span>Voir tous</span>
                 <img src="images/right-arrow.png">
               </a>
@@ -180,117 +165,52 @@
         <h1 class="section-title">Vêtements et accessoires</h1>
         <div class="flex-row-wrap space-evenly">
           <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/B%C3%A9b%C3%A9-Yoda-jouets-peluche-enfants/dp/B085RCH6V8/ref=sr_1_9?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-9"
+            <a href="https://www.amazon.fr/T-Shirt-Geek-Death-Star-Homme/dp/B015ZONCJQ/ref=sr_1_5?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=vetement+star+wars&qid=1617286875&sr=8-5"
               target="_blank">
-              <img src="images/bebeyoda.png" alt="Illustration peluche Bébé Yoda">
+              <img src="images/vetement1.png" alt="Illustration tee-shirt">
             </a>
-            <h4>Peluche Bébé Yoda</h4>
-            <a href="https://www.amazon.fr/B%C3%A9b%C3%A9-Yoda-jouets-peluche-enfants/dp/B085RCH6V8/ref=sr_1_9?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-9"
-              target="_blank">
-              <h5>En vente sur Amazon</h5>
-            </a>
-          </div>
-          <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/Joy-Toy-1500075-Peluche-Capitaine/dp/B01414ZZ9Q/ref=sr_1_14?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-14"
-              target="_blank">
-              <img src="images/phasma.png" alt="Illustration peluche capitaine Phasma">
-            </a>
-            <h4>Peluche Capitaine Phasma</h4>
-            <a href="https://www.amazon.fr/Joy-Toy-1500075-Peluche-Capitaine/dp/B01414ZZ9Q/ref=sr_1_14?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-14"
+            <h4>T-shirt étoile noire</h4>
+            <a href="https://www.amazon.fr/T-Shirt-Geek-Death-Star-Homme/dp/B015ZONCJQ/ref=sr_1_5?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=vetement+star+wars&qid=1617286875&sr=8-5"
               target="_blank">
               <h5>En vente sur Amazon</h5>
             </a>
           </div>
           <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/Joy-Toy-1500077-Peluche-Star/dp/B01414ZZ96/ref=sr_1_15?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-15"
+            <a href="https://www.amazon.fr/Star-Wars-Sweat-shirt-capuche-Gar%C3%A7on/dp/B074KDP2RS/ref=sr_1_6?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=vetement+star+wars&qid=1617286875&sr=8-6"
               target="_blank">
-              <img src="images/bb8.png" alt="Illustration peluche BB8">
+              <img src="images/vetement2.png" alt="Illustration sweat à capuche">
             </a>
-            <h4>Peluche BB8</h4>
-            <a href="https://www.amazon.fr/Joy-Toy-1500077-Peluche-Star/dp/B01414ZZ96/ref=sr_1_15?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-15"
+            <h4>Sweat à capuche</h4>
+            <a href="https://www.amazon.fr/Star-Wars-Sweat-shirt-capuche-Gar%C3%A7on/dp/B074KDP2RS/ref=sr_1_6?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=vetement+star+wars&qid=1617286875&sr=8-6"
               target="_blank">
               <h5>En vente sur Amazon</h5>
             </a>
           </div>
           <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A0837599O7TE859IEBKF&url=%2FStar-Wars-Black-%25C3%25A9lectronique-Collection%2Fdp%2FB07V5R1HX9%2Fref%3Dsr_1_3_sspa%3F__mk_fr_FR%3D%25C3%2585M%25C3%2585%25C5%25BD%25C3%2595%25C3%2591%26dchild%3D1%26keywords%3Dpeluche%2Bstar%2Bwars%26qid%3D1617181881%26sr%3D8-3-spons%26psc%3D1&qualifier=1617181881&id=7401342285688740&widgetName=sp_atf"
+            <a href="https://www.amazon.fr/Star-Wars-Ensemble-Pyjamas-Multicolore/dp/B07GQ34D2D/ref=sr_1_11?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=vetement+star+wars&qid=1617286875&sr=8-11"
               target="_blank">
-              <img src="images/bobafett.png" alt="Illustration casque Boba Fett">
+              <img src="images/vetement3.png" alt="Illustration pyjama BB8">
             </a>
-            <h4>Casque Boba Fett</h4>
-            <a href="https://www.amazon.fr/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A0837599O7TE859IEBKF&url=%2FStar-Wars-Black-%25C3%25A9lectronique-Collection%2Fdp%2FB07V5R1HX9%2Fref%3Dsr_1_3_sspa%3F__mk_fr_FR%3D%25C3%2585M%25C3%2585%25C5%25BD%25C3%2595%25C3%2591%26dchild%3D1%26keywords%3Dpeluche%2Bstar%2Bwars%26qid%3D1617181881%26sr%3D8-3-spons%26psc%3D1&qualifier=1617181881&id=7401342285688740&widgetName=sp_atf"
+            <h4>Pyjama BB8</h4>
+            <a href="https://www.amazon.fr/Star-Wars-Ensemble-Pyjamas-Multicolore/dp/B07GQ34D2D/ref=sr_1_11?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=vetement+star+wars&qid=1617286875&sr=8-11"
+              target="_blank">
+              <h5>En vente sur Amazon</h5>
+            </a>
+          </div>
+          <div class="goodies-item flex-col-wrap">
+            <a href="https://www.amazon.fr/Star-Wars-Yoda-Cool-fabricant/dp/B00BMNZGC6/ref=sr_1_21?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=vetement+star+wars&qid=1617286875&sr=8-21"
+              target="_blank">
+              <img src="images/vetement5.png" alt="Illustration t-shirt">
+            </a>
+            <h4>T-shirt DJ Yoda</h4>
+            <a href="https://www.amazon.fr/Star-Wars-Yoda-Cool-fabricant/dp/B00BMNZGC6/ref=sr_1_21?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=vetement+star+wars&qid=1617286875&sr=8-21"
               target="_blank">
               <h5>En vente sur Amazon</h5>
             </a>
           </div>
           <div class="flex-row-wrap">
             <div class="see-all flex-row-wrap">
-              <a href="https://www.amazon.fr/s?k=peluche+star+wars" target="_blank">
-                <span>Voir tous</span>
-                <img src="images/right-arrow.png">
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="flex-col-wrap">
-        <h1 class="section-title">Peluches et jouets</h1>
-        <div class="flex-row-wrap space-evenly">
-          <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/B%C3%A9b%C3%A9-Yoda-jouets-peluche-enfants/dp/B085RCH6V8/ref=sr_1_9?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-9"
-              target="_blank">
-              <img src="images/bebeyoda.png" alt="Illustration peluche Bébé Yoda">
-            </a>
-            <h4>Peluche Bébé Yoda</h4>
-            <a href="https://www.amazon.fr/B%C3%A9b%C3%A9-Yoda-jouets-peluche-enfants/dp/B085RCH6V8/ref=sr_1_9?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-9"
-              target="_blank">
-              <h5>En vente sur Amazon</h5>
-            </a>
-          </div>
-          <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/Joy-Toy-1500075-Peluche-Capitaine/dp/B01414ZZ9Q/ref=sr_1_14?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-14"
-              target="_blank">
-              <img src="images/phasma.png" alt="Illustration peluche capitaine Phasma">
-            </a>
-            <h4>Peluche Capitaine Phasma</h4>
-            <a href="https://www.amazon.fr/Joy-Toy-1500075-Peluche-Capitaine/dp/B01414ZZ9Q/ref=sr_1_14?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-14"
-              target="_blank">
-              <h5>En vente sur Amazon</h5>
-            </a>
-          </div>
-          <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/Joy-Toy-1500077-Peluche-Star/dp/B01414ZZ96/ref=sr_1_15?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-15"
-              target="_blank">
-              <img src="images/bb8.png" alt="Illustration peluche BB8">
-            </a>
-            <h4>Peluche BB8</h4>
-            <a href="https://www.amazon.fr/Joy-Toy-1500077-Peluche-Star/dp/B01414ZZ96/ref=sr_1_15?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=peluche+star+wars&qid=1617181881&sr=8-15"
-              target="_blank">
-              <h5>En vente sur Amazon</h5>
-            </a>
-          </div>
-          <div class="goodies-item flex-col-wrap">
-            <a
-              href="https://www.amazon.fr/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A0837599O7TE859IEBKF&url=%2FStar-Wars-Black-%25C3%25A9lectronique-Collection%2Fdp%2FB07V5R1HX9%2Fref%3Dsr_1_3_sspa%3F__mk_fr_FR%3D%25C3%2585M%25C3%2585%25C5%25BD%25C3%2595%25C3%2591%26dchild%3D1%26keywords%3Dpeluche%2Bstar%2Bwars%26qid%3D1617181881%26sr%3D8-3-spons%26psc%3D1&qualifier=1617181881&id=7401342285688740&widgetName=sp_atf"
-              target="_blank">
-              <img src="images/bobafett.png" alt="Illustration casque Boba Fett">
-            </a>
-            <h4>Casque Boba Fett</h4>
-            <a href="https://www.amazon.fr/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A0837599O7TE859IEBKF&url=%2FStar-Wars-Black-%25C3%25A9lectronique-Collection%2Fdp%2FB07V5R1HX9%2Fref%3Dsr_1_3_sspa%3F__mk_fr_FR%3D%25C3%2585M%25C3%2585%25C5%25BD%25C3%2595%25C3%2591%26dchild%3D1%26keywords%3Dpeluche%2Bstar%2Bwars%26qid%3D1617181881%26sr%3D8-3-spons%26psc%3D1&qualifier=1617181881&id=7401342285688740&widgetName=sp_atf"
-              target="_blank">
-              <h5>En vente sur Amazon</h5>
-            </a>
-          </div>
-          <div class="flex-row-wrap">
-            <div class="see-all flex-row-wrap">
-              <a href="https://www.amazon.fr/s?k=peluche+star+wars" target="_blank">
+              <a href="https://www.amazon.fr/s?k=vetements+star+wars" target="_blank">
                 <span>Voir tous</span>
                 <img src="images/right-arrow.png">
               </a>
