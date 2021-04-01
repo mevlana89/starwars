@@ -8,7 +8,6 @@ body {
 
 }
 
-
 .accordion-button {
     background-color: #000000;
     color: gold;
@@ -41,3 +40,7 @@ body {
     text-align:center;
     /*height: 100%;*/
 }
+
+element {
+    $body-bg: $gray-lighter;
+  }
