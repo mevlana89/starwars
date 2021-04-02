@@ -14,9 +14,10 @@ body {
 }
 
 #title {
-    background-color: black;
-    margin-top: 15px;
-    width:250px;
+    margin: 40px 0;
+    height: 40px;
+    object-fit: contain;
+    align-self: flex-start;
 }
 
 .divActeursFlex{

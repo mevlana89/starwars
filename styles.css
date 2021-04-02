@@ -14,5 +14,7 @@ body {
 .img-titre
 {
     margin: 40px 0;
-    width: 300px;
+    height: 40px;
+    object-fit: contain;
+    align-self: flex-start;
 }
