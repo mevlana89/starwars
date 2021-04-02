@@ -9,6 +9,16 @@
     padding: 0px;
 }
 
+body {
+    background-color: black;
+}
+
+#title {
+    background-color: black;
+    margin-top: 15px;
+    width:250px;
+}
+
 .divActeursFlex{
     display: flex;
     flex-direction: column;
